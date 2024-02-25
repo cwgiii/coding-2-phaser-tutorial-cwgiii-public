@@ -6,8 +6,6 @@ export default class MainScene extends Phaser.Scene {
     }
 
     create() {
-        this.add.image(400, 300, "sky");
-
         const message = `Phaser v${Phaser.VERSION}`;
         this.add
             .text(this.cameras.main.width - 15, 15, message, {
